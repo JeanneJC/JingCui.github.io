@@ -1,16 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jing Cui</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+        header nav a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        /* Specific sections */
+        #overview img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        #overview p {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Overview</h1>
-    <p>I am a Ph.D. candidate in Economics at the University of Ottawa with research interests in labour economics and applied microeconomics. 
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Jing Cui</h1>
+        <nav>
+            <a href="#cv">CV</a>
+            <a href="#education-teaching">Education and Teaching</a>
+            <a href="#research">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-My research focuses on retirement decisions, labour market transitions across business cycles, and the gender unemployment gap. 
+    <!-- Sections -->
+    <section id="overview">
+        <img src="Photo_by_Phuong.jpg" alt="Jing Cui's Photo">
+        <h2>Overview</h2>
+        <p>I am a Ph.D. candidate in Economics at the University of Ottawa with research interests in labour economics and applied microeconomics.</p>
+        <p>My research focuses on retirement decisions, labour market transitions across business cycles, and the gender unemployment gap.</p>
+        <p>My job market paper is about how COVID-19 affects older individuals' retirement transitions.</p>
+        <p>I expect to graduate in early 2025 and am available for interviews on the 2024–2025 job market.</p>
+    </section>
 
-My job market paper is about how COVID-19 affects older individuals' retirement transitions.  
+    <section id="cv">
+        <h2>CV</h2>
+        <p>View my full CV <a href="https://drive.google.com/file/d/1ibkeakmozumQiFhBUd9C-nAJgzfa7OBy/view?usp=drive_link" target="_blank">here</a>.</p>
+    </section>
 
-I expect to graduate in early 2025, and I'm available for interviews in the 2024-2025 job market. </p>
+    <section id="education-teaching">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>Ph.D. in Economics</strong>, University of Ottawa <span style="float: right;">2017 – present</span>
+        </li>
+        <li>
+            <strong>MA in Economics</strong>, University of Windsor <span style="float: right;">2015 – 2017</span>
+        </li>
+        <li>
+            <strong>Bachelor of Economics in Financial Engineering</strong>, Zhejiang University of Finance and Economics <span style="float: right;">2011 – 2015</span>
+        </li>
+    </ul>
+
+    <h2>Teaching</h2>
+    <ul>
+        <li>
+            <strong>Teaching Assistant for ECO7925 (PhD Macroeconomic Theory II)</strong>
+            <span style="float: right;">2023 Winter</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO6120 (Macroeconomic Theory IV)</strong>
+            <span style="float: right;">2022 Winter/2024 Winter/2024 Summer</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO6520 (Théorie Macroéconomique IV)</strong>
+            <span style="float: right;">2024 Winter</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO6904 (Macro Models Simulation)</strong>
+            <span style="float: right;">2023 Summer</span>
+        </li>
+	<li>
+            <strong>Teaching Assistant for ECO6192 (Labour Economics II)</strong>
+            <span style="float: right;">2024 Fall</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO6174 (Health Econometrics)</strong>
+            <span style="float: right;">2020 Summer/2023 Winter</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO4116 (Labor Economics)</strong>
+            <span style="float: right;">2021 Fall</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO4185 (Financial Econometrics)</strong>
+            <span style="float: right;">2024 Fall</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO2145 (Microeconomics Theory II)</strong>
+            <span style="float: right;">2020 Fall/2021 Winter/2022 Fall</span>
+        </li>
+        <li>
+            <strong>Teaching Assistant for ECO2151 (Introduction to Econometrics)</strong>
+            <span style="float: right;">2023 Fall</span>
+        </li>
+        
+        <li>
+            <strong>LaTeX Workshop for First-Year PhD Students</strong>
+            <span style="float: right;">2023 Summer</span>
+        </li>
+        <li>
+            <strong>Data Searching Workshop for First-Year PhD Students</strong>
+            <span style="float: right;">2023 Summer/2024 Summer</span>
+        </li>
+    </ul>
+    </section>
+
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>Highlights of your research:</p>
+        <ul>
+            <li>Older Individual's Labour Force Participation during COVID-19</li>
+            <li>The Cyclicality of Hiring, Separation and Hiring Wage across Experience and Tenure Levels</li>
+            <li>The Gender Unemployment Gap in Canada</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out:</p>
+        <ul>
+            <li>Email: <a href="mailto:jcui071@uottawa.ca">jcui071@uottawa.ca</a></li>
+            <li>Phone: (+1) 226-975-7166</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jing Cui</p>
+    </footer>
 </body>
 </html>
